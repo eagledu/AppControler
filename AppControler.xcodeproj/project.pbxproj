@@ -17,6 +17,7 @@
 		DAA78172147E90DF005F8902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA78170147E90DF005F8902 /* InfoPlist.strings */; };
 		DAA78175147E90DF005F8902 /* AppControlerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DAA78174147E90DF005F8902 /* AppControlerTests.h */; };
 		DAA78177147E90DF005F8902 /* AppControlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA78176147E90DF005F8902 /* AppControlerTests.m */; };
+		DAA78182147E91FA005F8902 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA78181147E91FA005F8902 /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,22 @@
 		DAA7814F147E90DE005F8902 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DAA78150147E90DE005F8902 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DAA78151147E90DE005F8902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DAA78154147E90DE005F8902 /* AppControler-Info.plist */ = {isa = PBXFileReference; path = "AppControler-Info.plist"; sourceTree = "<group>"; };
+		DAA78154147E90DE005F8902 /* AppControler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppControler-Info.plist"; sourceTree = "<group>"; };
 		DAA78156147E90DE005F8902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DAA78158147E90DE005F8902 /* AppControler-Prefix.pch */ = {isa = PBXFileReference; path = "AppControler-Prefix.pch"; sourceTree = "<group>"; };
+		DAA78158147E90DE005F8902 /* AppControler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppControler-Prefix.pch"; sourceTree = "<group>"; };
 		DAA78159147E90DE005F8902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAA7815C147E90DE005F8902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DAA7815E147E90DE005F8902 /* AppControlerAppDelegate.h */ = {isa = PBXFileReference; path = AppControlerAppDelegate.h; sourceTree = "<group>"; };
+		DAA7815E147E90DE005F8902 /* AppControlerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppControlerAppDelegate.h; sourceTree = "<group>"; };
 		DAA7815F147E90DE005F8902 /* AppControlerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppControlerAppDelegate.m; sourceTree = "<group>"; };
 		DAA78162147E90DF005F8902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DAA78169147E90DF005F8902 /* AppControlerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppControlerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA7816F147E90DF005F8902 /* AppControlerTests-Info.plist */ = {isa = PBXFileReference; path = "AppControlerTests-Info.plist"; sourceTree = "<group>"; };
+		DAA7816F147E90DF005F8902 /* AppControlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppControlerTests-Info.plist"; sourceTree = "<group>"; };
 		DAA78171147E90DF005F8902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DAA78173147E90DF005F8902 /* AppControlerTests-Prefix.pch */ = {isa = PBXFileReference; path = "AppControlerTests-Prefix.pch"; sourceTree = "<group>"; };
+		DAA78173147E90DF005F8902 /* AppControlerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppControlerTests-Prefix.pch"; sourceTree = "<group>"; };
 		DAA78174147E90DF005F8902 /* AppControlerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppControlerTests.h; sourceTree = "<group>"; };
 		DAA78176147E90DF005F8902 /* AppControlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppControlerTests.m; sourceTree = "<group>"; };
+		DAA78180147E91FA005F8902 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		DAA78181147E91FA005F8902 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				DAA7815E147E90DE005F8902 /* AppControlerAppDelegate.h */,
+				DAA78180147E91FA005F8902 /* AppController.h */,
+				DAA78181147E91FA005F8902 /* AppController.m */,
 				DAA7815F147E90DE005F8902 /* AppControlerAppDelegate.m */,
 				DAA78161147E90DF005F8902 /* MainMenu.xib */,
 				DAA78153147E90DE005F8902 /* Supporting Files */,
@@ -262,6 +267,7 @@
 			files = (
 				DAA7815A147E90DE005F8902 /* main.m in Sources */,
 				DAA78160147E90DE005F8902 /* AppControlerAppDelegate.m in Sources */,
+				DAA78182147E91FA005F8902 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
